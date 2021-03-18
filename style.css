@@ -1,0 +1,61 @@
+#header{
+    user-select: none;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.cc-btn{
+    margin-bottom: 30px;
+    font-size: 20px;
+    outline: none;
+    user-select: none;
+    padding: 5px 10px 9px 10px;
+    border-radius: 10px;
+}
+#del-button{
+    display: none;
+}
+.rec{
+    user-select: none;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+textarea{
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    background-color:#EDEDED;
+    width: 95%;
+    height: 100%;
+}
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgb(82 88 93 / 50%);
+}
+.imp-btn{
+    border-radius: 5px;
+    padding: 5px 10px 5px 10px;
+}
+.impotant{
+    border-width: 2px;
+    border-color:#0075FF;
+}
+.enter-block{
+    padding-right: 0px !important;
+}
+.control-block{
+    padding-left: 0px !important;
+}
+.checkbox{
+    display: block;
+    margin-top: 5px;
+    width: 29px;
+    height: 30px;
+    /* Double-sized Checkboxes */
+    transform: scale(2);         /* FF 16+, IE 10+ */
+    -webkit-transform: scale(1); /* Chrome, Safari 3.5+, Opera 15+ */
+    -ms-transform: scale(1);     /* legacy: IE 9+ */
+    -moz-transform: scale(2);    /* legacy: FF 3.5+ */
+    -o-transform: scale(1);      /* legacy: Opera 10.5 */
+
+}
